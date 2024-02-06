@@ -45,7 +45,7 @@ div {
     margin-top: 15px;
     line-height: 2;
 }
-.red {
+div.red {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
@@ -59,13 +59,12 @@ div.blue {
     border-right: 5px;
     border-top: 2px;
 }
-div.header {
+div.blue header {
 color: #C4C4C4;
 }
-div p {
+div.blue p {
 color: #C4C4C4;
 }
- /* Use #C4C4C4 for the heading and paragraph text */
 div.yellow {
     background-color: #FFFF00;
     text-align: right;
@@ -73,11 +72,9 @@ div.yellow {
     border-bottom: 2px;
     border-left: 5px;
 }
-div p {
+div.yellow p {
 color: #707070;
 }
- /* Use #707070 for the paragraph text */
-
 div.green {
     background-color: #00D800;
     text-align: left;
@@ -86,10 +83,10 @@ div.green {
     border-top: 2px;
 }
 .footer {
-    /* figure out what gradient background means */
-     border-style: solid;
-     border-width: 5px;
-     border-color: #FFFFFF;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,255,1) 25%, rgba(0,102,255,1) 75%, rgba(0,0,0,1) 100%);
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFFFFF;
 }
 .footer p {
 font-size: 20px;
